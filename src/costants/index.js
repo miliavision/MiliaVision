@@ -1,4 +1,6 @@
+
 import {
+  silvare,mentionlytics, icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8, icon9, icon10, icon11, icon12, icon13, icon14, icon15, icon16, icon17, icon18, icon19, icon20, alphabank, accenture ,
     mobile,
     backend,
     creator,
@@ -24,42 +26,51 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-  
+
+
   export const navLinks = [
     {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "pricing",
+      title: "Pricing",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "work",
+      title: "CV",
+    },
   ];
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Web Development",
+      icon: icon1,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "App Development",
+      icon: icon2,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Backend Development",
+      icon: icon3,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "UI Design",
+      icon: icon4,
     },
   ];
   
-  const technologies = [
+ export const technologies = [
     {
       name: "HTML 5",
       icon: html,
@@ -113,61 +124,100 @@ import {
       icon: docker,
     },
   ];
+ export const prices = [{
+  id: "0",
+  title: "Basic",
+  description: "AI chatbot, personalized recommendations",
+  price: "0",
+  features: [
+    "An AI chatbot that can understand your queries",
+    "Personalized recommendations based on your preferences",
+    "Ability to explore the app and its features without any cost",
+  ],
+},
+{
+  id: "1",
+  title: "Premium",
+  description: "Advanced AI chatbot, priority support, analytics dashboard",
+  price: "9.99",
+  features: [
+    "An advanced AI chatbot that can understand complex queries",
+    "An analytics dashboard to track your conversations",
+    "Priority support to solve issues quickly",
+  ],
+},
+{
+  id: "2",
+  title: "Enterprise",
+  description: "Custom AI chatbot, advanced analytics, dedicated account",
+  price: null,
+  features: [
+    "An AI chatbot that can understand your queries",
+    "Personalized recommendations based on your preferences",
+    "Ability to explore the app and its features without any cost",
+  ],
+},];
   
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
+  export const experiences = [
+      {
+        title: "Software Developer",
+        company_name: "Travelsoft",
+        icon: icon19,
+        iconBg: "#383E56",
+        date: "March 2020 - April 2021",
+        points: [
+          "Designed reusable and reliable code for use within distributed could enviroments.",
+          "Updated old codebases to modern development standards, improving functionality",
+          "Ionic, Angular, Typescript, Javascript, HTML, CSS, SCSS, NodeJS, SQL, Android Studio, Ios Code.",
+        ],
+      },
+      {
+        title: "Software Deloper",
+        company_name: "Mentionlytics",
+        icon: mentionlytics,
+        iconBg: "#E6DEDD",
+        date: "Jan 2021 - Feb 2022",
+        points: [
+          "Social Media monitoring application with brand name keywords analysis",
+          "Analyzie visual designs into design patterns",
+          "Bootstrap and responsive web application development",
+          "Troubleshooting and resolving bugs for clients in real‑time, alongside the seamless implementation of new features to meet client requirements",
+        ],
+      },
+      {
+        title: "Associate Software Developer",
+        company_name: "Silvare",
+        icon: silvare,
+        iconBg: "#383E56",
+        date: "Jan 2022 - Jan 2023",
+        points: [
+          "Contractor",
+        ],
+      },
+      {
+        title: "Associate Software Developer",
+        company_name: "Accenture",
+        icon: accenture,
+        iconBg: "#383E56",
+        date: "Jan 2022 - Jan 2023",
+        points: [
+          "Contractor",
+        ],
+      },
+      {
+        title: "Associate Software Developer",
+        company_name: "Alpha Bank",
+        icon: alphabank,
+        iconBg: "#383E56",
+        date: "Jan 2022 - Jan 2023",
+        points: [
+          "Proven track record of successfully delivering projects related to Urgent Transfers, Foreign Remittances, Online Term Deposit, Letter of Guarantees, and Imports as a key member of the Corporate Banking team",
+          "Proficient in managing projects from start to finish, with a proven track record of strong leadership skills",
+          "Collaborated effectively with team members and third party companies, providing guidance and support where needed.",
+          "Designed and developed robust solutions that met client requirements for functionality, scalability, and performance, working closely with both software development and testing teams"
+        ],
+      },
+    ];
   
   const testimonials = [
     {
@@ -198,17 +248,21 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Rent a Car",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "NodeJS",
           color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "white",
         },
         {
           name: "tailwind",
@@ -219,9 +273,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "ShopEase",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "is the ultimate destination for all your online shopping needs! ShopEase is a comprehensive Ecommerce Web Application designed to provide users with a seamless and convenient shopping experience, coupled with powerful administrative tools to manage your online store efficiently.",
       tags: [
         {
           name: "react",
@@ -240,9 +294,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "LogoThreads",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "is your go-to destination for effortlessly bringing your brand to life on custom-designed t-shirts. With LogoThreads, you can upload your logo with ease and visualize it on a variety of t-shirt styles, colors, and sizes, all from the comfort of your browser.",
       tags: [
         {
           name: "nextjs",
@@ -260,7 +314,67 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "SnapReunion",
+      description:
+        "SnapReunion is the ultimate photo-sharing platform designed to make your gatherings unforgettable. Seamlessly capture every moment, from the joyous laughter at weddings to the wild antics of parties, and instantly share them with your guests. Preserve the memories of your special events and reunions with ease, ensuring that everyone stays connected long after the celebrations end.        ",
+      tags: [
+        {
+          name: "Angular",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  var x = [
+    {
+      id: "0",
+      title: "Basic",
+      description: "AI chatbot, personalized recommendations",
+      price: "0",
+      features: [
+        "An AI chatbot that can understand your queries",
+        "Personalized recommendations based on your preferences",
+        "Ability to explore the app and its features without any cost",
+      ],
+    },
+    {
+      id: "1",
+      title: "Premium",
+      description: "Advanced AI chatbot, priority support, analytics dashboard",
+      price: "9.99",
+      features: [
+        "An advanced AI chatbot that can understand complex queries",
+        "An analytics dashboard to track your conversations",
+        "Priority support to solve issues quickly",
+      ],
+    },
+    {
+      id: "2",
+      title: "Enterprise",
+      description: "Custom AI chatbot, advanced analytics, dedicated account",
+      price: null,
+      features: [
+        "An AI chatbot that can understand your queries",
+        "Personalized recommendations based on your preferences",
+        "Ability to explore the app and its features without any cost",
+      ],
+    }
+  ];
+  export { services, testimonials, projects,x };
   

@@ -7,7 +7,12 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-
+import Pricing from './Pricing';
+import Section from './Section';
+import Heading from './Heading';
+import Tagline from './Tagline';
+import PricingList from './PricingList';
+import Button from './Button';
 export {
   Hero,
   Navbar,
@@ -20,5 +25,11 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Pricing,
+  Section,
+  Heading,
+  Tagline,
+  PricingList,
+  Button
 }
