@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
+import logo from "./mlogo.svg";
 import smallSphere from "./4-small.png";
 import stars from "./pricing/stars.svg";
 import lines from "./pricing/lines.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
 import mentionlytics from "./mentionlytics.png";
 import accenture from "./accenture.png";
 import alphabank from "./alphabank.png";
 import silvare from "./silvare.png";
 import check from "./check.svg";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -58,6 +56,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import instagram from "./instagram.svg";
 
 export {
  smallSphere,stars, lines,check,icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8, icon9, icon10, icon11, icon12, icon13, icon14, icon15, icon16, icon17, icon18, icon19, icon20,
@@ -68,8 +67,7 @@ export {
   logo,
   backend,
   creator,
-  mobile,
-  web,
+  instagram,
   github,
   menu,
   close,

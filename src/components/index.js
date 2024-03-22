@@ -13,6 +13,7 @@ import Heading from './Heading';
 import Tagline from './Tagline';
 import PricingList from './PricingList';
 import Button from './Button';
+import Footer from './Footer';
 export {
   Hero,
   Navbar,
@@ -31,5 +32,6 @@ export {
   Heading,
   Tagline,
   PricingList,
-  Button
+  Button,
+  Footer
 }

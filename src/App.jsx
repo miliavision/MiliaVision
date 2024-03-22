@@ -1,5 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Pricing, About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import { Pricing, About, Contact, Hero, Navbar,  Works, StarsCanvas} from './components';
+import ButtonGradient from './assets/svg/ButtonGradient copy';
+import { Footer } from './components';
 
 const App = () => {
   return (
@@ -14,11 +16,13 @@ const App = () => {
         <About />
         <Works/>
         <Pricing/>
+        <ButtonGradient/>
         {/* <Experience/> */}
-        <Tech/>
-        <Feedbacks/>
+        {/* <Tech/> */}
+        {/* <Feedbacks/> */}
           <Contact/>
           <StarsCanvas/>
+          <Footer/>
         </div>
       </div>
     </BrowserRouter>

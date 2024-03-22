@@ -1,10 +1,8 @@
 
 import {
   silvare,mentionlytics, icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8, icon9, icon10, icon11, icon12, icon13, icon14, icon15, icon16, icon17, icon18, icon19, icon20, alphabank, accenture ,
-    mobile,
     backend,
     creator,
-    web,
     javascript,
     typescript,
     html,
@@ -25,9 +23,17 @@ import {
     jobit,
     tripguide,
     threejs,
+    instagram
+    
   } from "../assets";
-
-
+  export const socials = [
+    {
+      id: "1",
+      title: "Instagram",
+      iconUrl: instagram,
+      url: "https://www.instagram.com/miliavision",
+    },
+  ];
   export const navLinks = [
     {
       id: "about",
@@ -44,10 +50,6 @@ import {
     {
       id: "contact",
       title: "Contact",
-    },
-    {
-      id: "work",
-      title: "CV",
     },
   ];
   
@@ -124,39 +126,7 @@ import {
       icon: docker,
     },
   ];
- export const prices = [{
-  id: "0",
-  title: "Basic",
-  description: "AI chatbot, personalized recommendations",
-  price: "0",
-  features: [
-    "An AI chatbot that can understand your queries",
-    "Personalized recommendations based on your preferences",
-    "Ability to explore the app and its features without any cost",
-  ],
-},
-{
-  id: "1",
-  title: "Premium",
-  description: "Advanced AI chatbot, priority support, analytics dashboard",
-  price: "9.99",
-  features: [
-    "An advanced AI chatbot that can understand complex queries",
-    "An analytics dashboard to track your conversations",
-    "Priority support to solve issues quickly",
-  ],
-},
-{
-  id: "2",
-  title: "Enterprise",
-  description: "Custom AI chatbot, advanced analytics, dedicated account",
-  price: null,
-  features: [
-    "An AI chatbot that can understand your queries",
-    "Personalized recommendations based on your preferences",
-    "Ability to explore the app and its features without any cost",
-  ],
-},];
+ 
   
   export const experiences = [
       {
@@ -253,19 +223,7 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "ReactJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NodeJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "white",
-        },
-        {
-          name: "tailwind",
+          name: "COMING SOON",
           color: "pink-text-gradient",
         },
       ],
@@ -276,20 +234,12 @@ import {
       name: "ShopEase",
       description:
         "is the ultimate destination for all your online shopping needs! ShopEase is a comprehensive Ecommerce Web Application designed to provide users with a seamless and convenient shopping experience, coupled with powerful administrative tools to manage your online store efficiently.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
+        tags: [
+          {
+            name: "COMING SOON",
+            color: "pink-text-gradient",
+          },
+        ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
@@ -297,20 +247,12 @@ import {
       name: "LogoThreads",
       description:
         "is your go-to destination for effortlessly bringing your brand to life on custom-designed t-shirts. With LogoThreads, you can upload your logo with ease and visualize it on a variety of t-shirt styles, colors, and sizes, all from the comfort of your browser.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        tags: [
+          {
+            name: "COMING SOON",
+            color: "pink-text-gradient",
+          },
+        ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
@@ -318,24 +260,12 @@ import {
       name: "SnapReunion",
       description:
         "SnapReunion is the ultimate photo-sharing platform designed to make your gatherings unforgettable. Seamlessly capture every moment, from the joyous laughter at weddings to the wild antics of parties, and instantly share them with your guests. Preserve the memories of your special events and reunions with ease, ensuring that everyone stays connected long after the celebrations end.        ",
-      tags: [
-        {
-          name: "Angular",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "NodeJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-      ],
+        tags: [
+          {
+            name: "COMING SOON",
+            color: "pink-text-gradient",
+          },
+        ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
@@ -344,35 +274,35 @@ import {
   var x = [
     {
       id: "0",
-      title: "Basic",
-      description: "AI chatbot, personalized recommendations",
-      price: "0",
+      title: "Basic Plan",
+      description: "Website Development with custom UI Design",
+      price: "2500",
       features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "Elite web development, bespoke UI design, unmatched quality.",
+        "Deluxe web solution, exclusive design, unparalleled sophistication.",
+        "Superior development, exquisite design, pinnacle of digital craftsmanship.",
       ],
     },
     {
       id: "1",
-      title: "Premium",
-      description: "Advanced AI chatbot, priority support, analytics dashboard",
-      price: "9.99",
+      title: "Premium Plan",
+      description: "Ecommerce / Rentals Website with custom UI Design",
+      price: "3500",
       features: [
-        "An advanced AI chatbot that can understand complex queries",
-        "An analytics dashboard to track your conversations",
-        "Priority support to solve issues quickly",
+        "Basic Plan",
+        "Tailored Features to Suit Your Needs, Not Generic Templates",
+        "Personalized Admin Panel Empowering Your Payment and Order Management",
       ],
     },
     {
       id: "2",
       title: "Enterprise",
-      description: "Custom AI chatbot, advanced analytics, dedicated account",
+      description: "Native Apps in Ios & Android with custom UI Design",
       price: null,
       features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "Premium Plan",
+        "Web Application (Website) Development Service",
+        "Customized iOS and Android Native Application Development"
       ],
     }
   ];

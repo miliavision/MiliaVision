@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.51 66.18">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-size: 52.56px;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #5271ff;
+      }
+
+      .cls-3, .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-2" x="0" width="66.18" height="66.18" rx="23.92" ry="23.92"/>
+        <g>
+          <g>
+            <path class="cls-3" d="m33.09,9.2s8.9,7.76,0,16.77c-8.9-9.01,0-16.77,0-16.77Z"/>
+            <path class="cls-3" d="m33.09,56.98s-8.9-7.76,0-16.77c8.9,9.01,0,16.77,0,16.77Z"/>
+          </g>
+          <path class="cls-3" d="m18.86,20.15s11.78-.81,11.86,11.86c-12.66-.08-11.86-11.86-11.86-11.86Z"/>
+          <path class="cls-3" d="m18.86,46.24s11.78.81,11.86-11.86c-12.67.08-11.86,11.86-11.86,11.86Z"/>
+          <path class="cls-3" d="m6.62,33.09s7.76-8.9,16.77,0c-9.01,8.9-16.77,0-16.77,0Z"/>
+          <path class="cls-3" d="m47.32,46.24s-11.78.81-11.86-11.86c12.66.08,11.86,11.86,11.86,11.86Z"/>
+          <path class="cls-3" d="m47.32,20.15s-11.78-.81-11.86,11.86c12.67-.08,11.86-11.86,11.86-11.86Z"/>
+          <path class="cls-3" d="m59.56,33.3s-7.76,8.9-16.77,0c9.01-8.9,16.77,0,16.77,0Z"/>
+        </g>
+      </g>
+      <text class="cls-1" transform="translate(83.92 49.53)"><tspan x="0" y="0">milia vision</tspan></text>
+    </g>
+  </g>
+</svg>
